@@ -3,7 +3,8 @@
 > Vue Auth & more
 
 ## This is a full vue-login app using all the logout and login functionality with Firebase Auth REST API and JWT
-> It has UI that takes authentication status into account by updating the header and blocking the access to the dashboard if we're not authenticated, using <b>Navigations Guards</b> 
+> It has UI that takes authentication status into account by updating the header and blocking the access to the dashboard if we're not authenticated, using <b>Navigations Guards</b> .
+
 > The app use <b>token</b> to fetch data when sign up and sign in, stored into Vuex and localStorage.
 
 

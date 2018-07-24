@@ -13,7 +13,7 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', component: WelcomePage },
   { path: '/signup', component: SignupPage },
-  { path: '/signin', component: SigninPage },
+  { path: '/signin', component: SigninPage,},
   { path: '/dashboard',
     component: DashboardPage,
     beforeEnter (to, from, next) {

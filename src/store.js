@@ -41,7 +41,6 @@ export default new Vuex.Store({
         returnSecureToken: true
       })
         .then(res => {
-          console.log(res)
           commit('authUser', {
             email: res.data.email,
             token: res.data.idToken,

@@ -54,7 +54,11 @@
           confirmPassword: this.confirmPassword,
           terms: this.terms
         }
-        console.log(formData)
+
+        //Simple check if passwords matches
+        if(this.password !== this.confirmPassword){
+          alert("Passwords doesn't match!")
+        }
         this.$store.dispatch('signup', formData)
       }
     }
